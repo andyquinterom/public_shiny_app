@@ -1,0 +1,5 @@
+version: 3.9
+services:
+  my_app:
+    build: .
+    ports: 3838:3838
