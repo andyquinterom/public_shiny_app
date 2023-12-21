@@ -7,3 +7,5 @@ COPY app.R .
 RUN chown -R faucet:faucet /srv/faucet
 
 USER faucet
+
+ENV FAUCET_IP_FROM=x-real-ip
